@@ -1,4 +1,7 @@
-### Not gate:
+* Not gate:
+ * if (in) out = 0, else out = 1
+ */
+
 CHIP Not {
   IN in;
   OUT out;
@@ -8,8 +11,9 @@ CHIP Not {
 
 
 
- ###And gate:
- ####if (a and b) out = 1, else out = 0 
+ * And gate:
+ * if (a and b) out = 1, else out = 0 
+ */
 
 CHIP And {
     IN a, b;
@@ -18,4 +22,66 @@ CHIP And {
     PARTS:
     Nand(a=a, b=b , out=abNand );
     Nand(a=abNand, b=abNand , out=out );
+}
+
+
+
+
+/**
+ * Or gate:
+ * if (a or b) out = 1, else out = 0 
+ */
+CHIP Or {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    //// Replace this comment with your code.
+}
+
+
+
+
+
+/**
+ * Exclusive-or gate:
+ * if ((a and Not(b)) or (Not(a) and b)) out = 1, else out = 0
+ */
+CHIP Xor {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    //// Replace this comment with your code.
+}
+
+
+
+
+
+/** 
+ * Multiplexor:
+ * if (sel = 0) out = a, else out = b
+ */
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    //// Replace this comment with your code.
+}
+
+
+
+/**
+ * Demultiplexor:
+ * [a, b] = [in, 0] if sel = 0
+ *          [0, in] if sel = 1
+ */
+CHIP DMux {
+    IN in, sel;
+    OUT a, b;
+
+    PARTS:
+    //// Replace this comment with your code.
 }

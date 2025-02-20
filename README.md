@@ -6,11 +6,3 @@ This repository includes separate HDL code for different logic gates, such as AN
 
 Currently enrolled in the course on Coursera to gain experience with hardware description languages (HDL).
 
-
-### Not gate:
-CHIP Not {
-  IN in;
-  OUT out;
-  PARTS:
-  Nand(a=in , b=in , out=out );
-}

@@ -1,5 +1,7 @@
 # Nand-to-Tetris
 
-A collection of my code from the 'Nand to Tetris' course, where I’m building a computer starting from a basic NAND gate in HDL, gradually developing a complete hardware and software system.
+A collection of my code from the From Nand to Tetris course, where I’m building a computer from the ground up. Starting with the basic NAND gate in HDL, I’ve implemented various other logic gates, progressively.
 
-Currently taking the course on Coursera, diving into digital design and hardware description languages (HDL).
+This repository includes separate HDL code for different logic gates, such as AND, OR, XOR, NOT, and more. Each project focuses on designing a specific gate or system component, providing insight into digital design and hardware architecture.
+
+Currently enrolled in the course on Coursera to gain experience with hardware description languages (HDL).

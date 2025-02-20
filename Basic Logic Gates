@@ -36,7 +36,6 @@ CHIP Or {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
 }
 
 
@@ -52,7 +51,6 @@ CHIP Xor {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
 }
 
 
@@ -68,7 +66,6 @@ CHIP Mux {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
 }
 
 
@@ -83,7 +80,6 @@ CHIP DMux {
     OUT a, b;
 
     PARTS:
-    //// Replace this comment with your code.
 }
 
 

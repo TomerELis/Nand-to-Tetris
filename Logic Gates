@@ -1,4 +1,4 @@
-// Not gate:
+### Not gate:
 CHIP Not {
   IN in;
   OUT out;
@@ -7,10 +7,10 @@ CHIP Not {
 }
 
 
-/**
- *And gate:
- * if (a and b) out = 1, else out = 0 
- */
+
+ ###And gate:
+ ####if (a and b) out = 1, else out = 0 
+
 CHIP And {
     IN a, b;
     OUT out;
